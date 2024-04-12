@@ -1,0 +1,46 @@
+body {
+    font-family: Calibri, sans-serif;
+}
+
+h3{
+    font-size:40px;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    list-style: none;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section{
+    display: flex;
+}
+
+.lista{
+    list-style: none;
+    flex: 50%;
+    height: 20px;
+}
+
+.image{
+    display: flex;
+}
